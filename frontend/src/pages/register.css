@@ -1,0 +1,113 @@
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .register-container h1 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form input {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+    font-size: 15px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+    transition: all 0.5s ease;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .divider span {
+    flex: 2;
+    height: 1px;
+    background: #ccc;
+    position: relative;
+  }
+  
+  .divider span::before {
+    content: attr(data-content);
+  }
+  
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn-google {
+    background-color: #DB4437;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .btn-google:hover {
+    background-color: #c1351d;
+    transition: all 0.5s ease;
+  }
+  
+  .btn-facebook {
+    background-color: #4267B2;
+    color: white;
+    padding: 12px;
+    border: none;
+    transition: all 0.5s ease;
+    font-size: 14px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btn-facebook:hover {
+    background-color: #365899;
+    transition: all 0.5s ease;
+  }
+
+  .btn-instagram {
+  background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);
+  color: white;
+  padding: 12px;
+  margin-bottom: 30px;
+  transition: all 0.5s ease;
+  border: none;
+  font-size: 14px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btn-instagram:hover { opacity: 0.9; }
