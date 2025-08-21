@@ -19,7 +19,6 @@ export default function Register() {
     alert("Instagram sign-up coming soon!");
   };
 
-
   return (
     <div className="register-container">
       <h1>Create Your Account</h1>
